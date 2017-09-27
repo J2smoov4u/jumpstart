@@ -19,6 +19,7 @@ li a {
   float: left;
 }
 
-.navbar-header {
+.navbar-default .navbar-nav .active,
+.navbar-default .navbar-nav .active:hover {
   color: #399bd1;
 }
