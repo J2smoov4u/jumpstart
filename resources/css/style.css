@@ -9,12 +9,32 @@ li a {
   font-weight: bold;
 }
 
+img {
+  width: 100%;
+}
+
+h1 {
+  font-family: "Monoton";
+  font-size: 7.1rem;
+  color: white;
+  text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px -1px 0 black, 1px 1px 0 black;
+}
+.center, h1 {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.container .text {
+  max-width: 51.3rem;
+}
 /*a {
   display: inline;
 }*/
 
 /*Navigation*/
-
 .nav .navbar-nav li a {
   float: left;
 }
@@ -22,4 +42,22 @@ li a {
 .navbar-default .navbar-nav .active,
 .navbar-default .navbar-nav .active:hover {
   color: #399bd1;
+}
+
+.hide {
+  display: none;
+}
+
+/*Jumbotron Section*/
+.jumbotron-bike .container p {
+  max-width: 51.3rem;
+}
+/*   BIKES   */
+.jumbotron-bike {
+  background-image: url("https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/images/jumbotron-bike.jpg?raw=true");
+  background-size: cover;
+  background-position: center;
+  repeat: no-repeat;
+  width: 100%;
+  height: auto;
 }
