@@ -13,10 +13,16 @@ li a {
 
 img {
   width: 100%;
+  margin: auto;
 }
 
 .center, h1 {
   text-align: center;
+}
+
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
 }
 
 .flex {
@@ -30,6 +36,8 @@ img {
 .shadow {
   text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px -1px 0 black, 1px 1px 0 black;
 }
+
+
 /*a {
   display: inline;
 }*/
@@ -77,7 +85,7 @@ img {
 
 .relative-wrapper {
   margin: auto;
-  
+
 }
 /*   BIKE IMAGE   */
 .jumbotron-bike {
@@ -114,6 +122,7 @@ img {
   padding-top: 11.85rem;
   padding-bottom: 11.85rem;
 }
+
 /*   DUFFLE-BAG IMAGE   */
 .jumbotron-duffel {
   background-image: url("https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/jumbotron-duffel.jpg?raw=true");
@@ -124,4 +133,28 @@ img {
   height: auto;
   padding-top: 11.85rem;
   padding-bottom: 11.85rem;
+}
+
+/*FEATURED PROJECTS SECTION- ALL IN ROWS*/
+.row li {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+.row li:nth-child(2n + 0) {
+  color: red;
+}
+.row li:nth-child(2n + 1) {
+  color: midnightblue;
+}
+
+.blue {
+  color: #399bd1;
+}
+
+#author {
+  font-weight: 200;
+}
+
+.even img {
+  margin-top: 20px;
 }
