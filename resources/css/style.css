@@ -1,6 +1,8 @@
 /*Universal Styles*/
 html {
   font-size: 16px;
+  font-family: "Open Sans";
+  margin: 0;
 }
 
 li a {
@@ -13,12 +15,6 @@ img {
   width: 100%;
 }
 
-h1 {
-  font-family: "Monoton";
-  font-size: 7.1rem;
-  color: white;
-  text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px -1px 0 black, 1px 1px 0 black;
-}
 .center, h1 {
   text-align: center;
 }
@@ -27,8 +23,12 @@ h1 {
   display: flex;
 }
 
-.container .text {
+.box {
   max-width: 51.3rem;
+}
+
+.shadow {
+  text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px -1px 0 black, 1px 1px 0 black;
 }
 /*a {
   display: inline;
@@ -49,15 +49,79 @@ h1 {
 }
 
 /*Jumbotron Section*/
-.jumbotron-bike .container p {
+.jumbotron p {
   max-width: 51.3rem;
+  margin: auto;
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: white;
 }
-/*   BIKES   */
-.jumbotron-bike {
-  background-image: url("https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/images/jumbotron-bike.jpg?raw=true");
+
+.jumbotron h1 {
+  font-family: "Monoton";
+  font-size: 7.1rem;
+  color: white;
+  font-weight: 500;
+  text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px -1px 0 black, 1px 1px 0 black;
+}
+
+.jumbrotron {
   background-size: cover;
   background-position: center;
   repeat: no-repeat;
   width: 100%;
   height: auto;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+
+.relative-wrapper {
+  margin: auto;
+  
+}
+/*   BIKE IMAGE   */
+.jumbotron-bike {
+  background-image: url("https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/jumbotron-bike.jpg?raw=true");
+  background-size: cover;
+  background-position: center;
+  repeat: no-repeat;
+  width: auto;
+  height: auto;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+
+/*    BEER IMAGE   */
+.jumbotron-beer {
+  background-image: url("https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/jumbotron-beer.jpg?raw=true");
+  background-size: cover;
+  background-position: center;
+  repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+
+/*   FLOWER IMAGE   */
+.jumbotron-flowers {
+  background-image: url("https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/jumbotron-flowers.jpg?raw=true");
+  background-size: cover;
+  background-position: center;
+  repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
+}
+/*   DUFFLE-BAG IMAGE   */
+.jumbotron-duffel {
+  background-image: url("https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/jumbotron-duffel.jpg?raw=true");
+  background-size: cover;
+  background-position: center;
+  repeat: no-repeat;
+  width: 100%;
+  height: auto;
+  padding-top: 11.85rem;
+  padding-bottom: 11.85rem;
 }
