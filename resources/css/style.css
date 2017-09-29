@@ -37,6 +37,13 @@ h2 {
   text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px -1px 0 black, 1px 1px 0 black;
 }
 
+.middle {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  z-index: 10;
+  margin: 75px;
+}
 
 /*a {
   display: inline;
@@ -84,8 +91,12 @@ h2 {
 }
 
 .relative-wrapper {
-  margin: auto;
+  z-index: 10;
+  position: relative;
+}
 
+.btn {
+  margin: auto;
 }
 /*   BIKE IMAGE   */
 .jumbotron-bike {
@@ -155,6 +166,9 @@ h2 {
   font-weight: 200;
 }
 
-.even img {
-  margin-top: 20px;
+.image-container {
+  opacity: 0.5;
+}
+.image-container:hover {
+  opacity: 1;
 }
