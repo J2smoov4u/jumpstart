@@ -51,28 +51,28 @@
             <h1>Get Going.</h1>
             <p class="center shadow">Jumpstart your startup with some crowdsourced seed money, or support one of our 300,000,000+ creators and get rewards.</p>
             <div class="middle">
-              <a href="#" class="btn btn-primary btn-lg">Jump In!</a>
+              <a href="#" class="btn btn-primary btn-lg">Jump In!</a> <!--Here is the element I am having a problem with-->
             </div>
           </div>
           <div class="jumbotron-beer">
             <h1>GET THINKING.</h1>
             <p class="center shadow">Meet like-minded individuals who will help fuel your creative juices.</p>
             <div class="middle">
-              <a href="#" class="btn btn-primary btn-lg">Jump In!</a>
+              <a href="#" class="btn btn-primary btn-lg">Jump In!</a> <!--Here is the element I am having a problem with-->
             </div>
           </div>
           <div class="jumbotron-flowers">
             <h1>GET CREATING.</h1>
             <p class="center shadow">Stop overthing projects and begin putting them out into the world.</p>
             <div class="middle">
-              <a href="#" class="btn btn-primary btn-lg">Jump In!</a>
+              <a href="#" class="btn btn-primary btn-lg">Jump In!</a> <!--Here is the element I am having a problem with-->
             </div>
           </div>
           <div class="jumbotron jumbotron-duffel">
             <h1>GET STARTED.</h1>
             <p class="center shadow">What are you waiting for? Today's the day for your next big idea.</p>
             <div class="middle">
-              <a href="#" class="btn btn-primary btn-lg">Jump In!</a>
+              <a href="#" class="btn btn-primary btn-lg">Jump In!</a> <!--Here is the element I am having a problem with-->
             </div>          </div>
         </div>
         <!--<div class="relative-wrapper">
@@ -83,14 +83,14 @@
     </div>
 
 <!--FEATURE PROJECTS SECTION (ROWS)-->
-    <div class="container">
+    <div class="container feature">
       <div class="row">
-        <div class="feature col-lg-10 col-md-12 col-sm-3">
+        <div class="col-lg-10 col-md-12 col-sm-3">
           <h2 class="blue">Featured Projects</h2>
         </div>
       </div>
       <div class="row">
-        <div class=" image-container col-md-6 col-sm-12 even">
+        <div class="image-container col-md-6 col-sm-12 even" id="big">
           <img src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/featured-project.png?raw=true" alt="feature project barn house">
         </div>
         <div class="col-md-3 col-sm-12">
@@ -122,16 +122,17 @@
           </ul>
         </div>
       </div>
+
       <div class="row">
         <div class="col-md-12">
           <h2 class="blue">Projects</h2>
         </div>
       </div>
       <div class="row">
-        <div class="col-sm-12 col-md-4">
-        <div class=" image-container col-md-4 col-sm-12">
-          <img src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/project1.png?raw=true" alt="the right tights picture">
-        </div>
+        <div class="col-sm-12 col-md-4 project">
+          <div class="image-container">
+            <a href="#"><img src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/project1.png?raw=true" alt="the right tights picture"></a>
+          </div>
           <h3>The Right Tights</h3>
           <p id="author">by Riley Mae</p>
           <p>These tights are 50 denier, beautifully constructed, hand-dyed,
@@ -140,9 +141,9 @@
             all backers.</p>
         </div>
         <div class="col-sm-12 col-md-4">
-        <div class="image-container col-md-4 col-sm-12">
-          <img src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/project2.png?raw=true" alt="the peppermint house">
-        </div>
+          <div class="image-container">
+            <a href="#"><img src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/project2.png?raw=true" alt="the peppermint house"></a>
+          </div>
           <h3>Peppermint Smart Home</h3>
           <p id="author">by Brian McDonald</p>
           <p>Instantly upgrade your home with technology that keeps your
@@ -151,9 +152,9 @@
              of the way.</p>
         </div>
         <div class="col-sm-12 col-md-4">
-        <div class="image-container col-md-4 col-sm-12">
-          <img src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/project3.png?raw=true" alt="streetlight image">
-        </div>
+          <div class="image-container">
+            <a href="#"><img src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/project3.png?raw=true" alt="streetlight image"></a>
+          </div>
           <h3>American Streetlife</h3>
           <p id="author">by Patrick Wallace</p>
           <p>I've been traveling around the United States for the past
@@ -164,6 +165,15 @@
       </div>
     </div>
 
+<!--Footer section-->
+    <div class="container-fluid help">
+      <div class="flex">
+        <strong>Having trouble thinking of an idea?</strong>
+        <p class="center">Inventorsâ€™ block strikes at the worst times. But thatâ€™s all changed with
+        Jumpstartâ€™s Good Idea Generator Lite (GIGLi).</p>
+        <a href="#" class="btn btn-lg btn-primary">Learn more</a>
+      </div>
+    </div>
 <!--//////Javascript Files//////
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>

@@ -27,6 +27,9 @@ h2 {
 
 .flex {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .box {
@@ -147,28 +150,56 @@ h2 {
 }
 
 /*FEATURED PROJECTS SECTION- ALL IN ROWS*/
+.projects {
+  margin-bottom: 5.8rem;
+}
+.row h2 {
+  margin: 1rem;
+}
 .row li {
   line-height: 1.4;
   color: rgba(0, 0, 0, 0.7);
 }
-.row li:nth-child(2n + 0) {
+/*.row li:nth-child(2n + 0) {
   color: red;
 }
 .row li:nth-child(2n + 1) {
   color: midnightblue;
-}
+}*/
 
 .blue {
   color: #399bd1;
 }
 
+.feature .image-container {
+  height: 19rem;
+  margin-top: 20px;
+}
+
 #author {
   font-weight: 200;
 }
-
 .image-container {
   opacity: 0.5;
+  height: 13.5rem;
+  overflow: hidden;
 }
 .image-container:hover {
   opacity: 1;
+}
+
+/*   HELP SECTION   */
+.help {
+  padding: 5.2rem;
+  background-color: #f3f3f3;
+  margin-top: 5.85rem;
+}
+.help strong {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 1.4rem;
+}
+.help p {
+  max-width: 42rem;
+  margin-bottom: 2rem;
 }
