@@ -1,6 +1,8 @@
 // JQUERIES
 $(document).ready(function() {
-  $('.single-item').slick();
+  $('.jumbotron').slick( {
+    
+  });
 
   });
 });

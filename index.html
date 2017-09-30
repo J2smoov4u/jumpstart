@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Jumpstart</title>
-<!--//////CSS Links//////-->
+<!--   CSS FAVICON   -->
     <link rel="icon" href="favicon.png" type="image/x-icon"/>
 
 <!--//////GOOGLE FONTS//////-->
@@ -16,7 +16,10 @@
 <!--//////STYLESHEETS//////-->
     <link rel="stylesheet" type="text/css" href="./resources/css/reset.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.css"/>
+<!--   SLICK   -->
+    <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+<!--   MY STYLESHEET   -->
     <link rel="stylesheet" type="text/css" href="./resources/css/style.css"/>
 <!--//////JAVASCRIPT//////-->
 
@@ -31,14 +34,14 @@
 
   <body>
 <!-- Navigation  -->
-    <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default">
       <div class="container">
-        <ul class="nav navbar-nav">
+        <img class="navbar-brand navbar-left navbar-collapse" src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/logo.png?raw=true" alt="Jumpstart logo">
+        <ul class="nav navbar-nav navbar-right">
           <li><a class="active" href="#">Explore</a></li>
           <li><a href="#">Start a Project</a></li>
           <li><a href="#">About Us</a></li>
         </ul>
-        <img class="navbar-brand navbar-right navbar-collapse" src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/logo.png?raw=true" alt="Jumpstart logo">
       </div>
     </nav>
 <!--Main Jumbotram -->
@@ -73,7 +76,8 @@
             <p class="center shadow">What are you waiting for? Today's the day for your next big idea.</p>
             <div class="middle">
               <a href="#" class="btn btn-primary btn-lg">Jump In!</a> <!--Here is the element I am having a problem with-->
-            </div>          </div>
+            </div>
+          </div>
         </div>
         <!--<div class="relative-wrapper">
           <a href="#" class="col-md-12 btn btn-primary btn-lg">Jump In!</a>
@@ -93,14 +97,14 @@
         <div class="image-container col-md-6 col-sm-12 even" id="big">
           <img src="https://github.com/J2smoov4u/jumpstart/blob/master/resources/images/featured-project.png?raw=true" alt="feature project barn house">
         </div>
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-3 col-sm-5">
           <h3>DeFrost: A Documentary</h3>
           <p id="author">by Leo De Firenze</p>
           <p>DeFrost is a documentary about growing up in a little red house in a cold, harsh valley. This is a story about my mother's childhood.
             This film attempts to capture vignettes of her upbringing â€” her family, friends, pets, and eventual depature from a freezing valley in Northern
             Italy â€” through beautiful cinematography and narration.</p>
         </div>
-        <div class="col-md-3 col-sm-12">
+        <div class="col-md-3 col-sm-5">
           <h3 class="blue">Product Categories</h3>
           <ul>
             <li>Art</li>
@@ -124,7 +128,7 @@
       </div>
 
       <div class="row">
-        <div class="col-md-12">
+        <div class="col-md-12 col-sm-6">
           <h2 class="blue">Projects</h2>
         </div>
       </div>
@@ -178,5 +182,8 @@
     <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
     <script type="text/javascript" src="//cdn.jsdelivr.net/jquery.slick/1.8.0/slick.min.js"></script>
     <script type="text/javascript" src="resources/js/main.js"></script> /////CHECK ON THIS-->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
   </body>
 </html>
