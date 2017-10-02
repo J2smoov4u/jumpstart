@@ -1,18 +1,9 @@
 // JQUERIES
 $(document).ready(function() {
-  $('.jumbotron').slick( {
-    
+  $('.carousel').slick({
+    dots: true,
+    infinite: true,
+    autospeed: 4000,
+    fade: true,
   });
-
-  });
-});
-//Single item slide
-$('.single-item').slick();
-// Fade
-$('.fade').slick({
-  dots: true,
-  infinite: true,
-  speed: 500,
-  fade: true,
-  cssEase: 'linear'
 });
