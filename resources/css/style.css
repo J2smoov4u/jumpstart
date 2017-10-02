@@ -73,6 +73,9 @@ h2 {
 .navbar .navbar-default {
   margin-bottom: 0;
 }
+.navbar {
+  margin-bottom: 0;
+}
 .navbar-default .navbar-nav .active,
 .navbar-default .navbar-nav .active:hover {
   color: #399bd1;
@@ -112,8 +115,11 @@ h2 {
   repeat: no-repeat;
   width: 100%;
   height: auto;
-  padding: 0;
-
+  padding: 0 !important;
+  margin-top: 0;
+}
+.jumbotron .jumbotron-fluid {
+  padding-top: 0 !important;
 }
 
 .relative-wrapper {
