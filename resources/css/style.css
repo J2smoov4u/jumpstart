@@ -197,22 +197,37 @@ h2 {
   color: #399bd1;
 }
 
-.feature .image-container {
+#big {
   height: 19rem;
-  margin-top: 20px;
-
+  /*margin-top: 20px;*/
+  display: block;
+  opacity: 0.65;
+  overflow: hidden;
+  transition: all 0.5 ease 0.5;
+}
+#big:hover {
+  opacity: 1;
+  height: 19rem;
+  transform: scale(1.1);
+  overflow: hidden;
+  transition: all 0.5 ease-in 0.5;
 }
 
 #author {
   font-weight: 200;
 }
 .image-container {
-  opacity: 0.5;
+  opacity: 0.65;
   height: 13.5rem;
   overflow: hidden;
+  transition: all 0.5 ease 0.5;
+
 }
 .image-container:hover {
   opacity: 1;
+  transform: scale(1.1);
+  max-height: 13.5rem;
+  overflow: hidden;
 }
 
 /*   HELP SECTION   */
