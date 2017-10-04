@@ -1,8 +1,14 @@
 // JQUERIES
-$(document).ready(function() {
+$(document).ready(function(){
   $('.carousel').slick({
-    arrows: false,
+    slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000
+    autoplaySpeed: 4000,
+    arrows: false,
+    draggable: false,
+    pauseOnFocus: false,
+    pauseOnHover: false
   });
+
+  var scroll = 0;
 });
