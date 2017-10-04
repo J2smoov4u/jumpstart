@@ -118,7 +118,7 @@ h2 {
   color: white;
   font-weight: 500;
   max-width: 100%;
-  text-shadow: -1px -1px 0 black, 1px 1px 0 black, -1px -1px 0 black, 1px 1px 0 black;
+  text-shadow: -1px -1px 0 #399bd1, 1px 1px 0 #399bd1, -1px -1px 0 black, 1px 1px 0 black;
 }
 
 .jumbrotron {
@@ -226,7 +226,7 @@ li:hover {
 
 .image-container , .image-container1 {
   overflow: hidden;
-  box-shadow: 2px 2px 2px gray, 2px 2px 2px #399bd1, 2px 2px 2px black;
+  box-shadow: 4px 4px 2px #399bd1, 2px 2px 2px #399bd1, 4px 4px 2px black;
 }
 .image-container a img {
   opacity: 0.65;
@@ -265,6 +265,19 @@ li:hover {
 #big {
   overflow: hidden;
   padding: 0;
+}
+
+/*ADD ANIMATION TO PICTURES*/
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
 }
 
 /*   HELP SECTION   */
