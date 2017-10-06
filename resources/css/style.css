@@ -19,7 +19,7 @@ img {
   width: 100%;
 }
 
-.center, h1 {
+.center, h1, strong {
   text-align: center;
 }
 
@@ -230,14 +230,14 @@ li:hover {
 }
 .image-container a img {
   opacity: 0.65;
-  max-height: 13.5rem;
+  min-height: 13.5rem;
   overflow: hidden;
   transition: all 0.5 ease 0.5;
 }
 .image-container a img:hover {
   opacity: 1;
   transform: scale(1.3);
-  max-height: 13.5rem;
+  min-height: 13.5rem;
   overflow: hidden;
   transition: transform 500ms, opacity 500ms;
 }
@@ -256,9 +256,10 @@ li:hover {
   overflow: hidden;
   transition: transform 500ms;
   transition: opacity 500ms;
+  transition: all 0.5 ease 0.5;
 }
 .feature .image-container1 {
-  height: 19rem;
+  min-height: 19rem;
   margin-top: 20px;
 }
 
@@ -294,21 +295,40 @@ li:hover {
   padding: 5.2rem;
   background-color: #f3f3f3;
   margin-top: 5.85rem;
+  width: 100%;
+}
+.help .container-fluid {
+  width: 100%;
 }
 /*   MEDIA QUERIES MOBILE   */
 @media only screen and (max-width: 480px) {
   html {
     font-size: 12px;
+    width: 100%;
   }
+  body {
+    padding: .5rem;
+  }
+
   .jumbotron-fluid h1 {
     font-size: 4rem;
     max-width: 100%;
   }
-  .nav .navbar-nav ul li {
+  ul li a {
     display:none;
   }
   .nav .navbar-nav img {
     float: left;
+  }
+  p {
+    line-height: 1.4;
+    text-align: center;
+  }
+  h3 {
+    text-align: center;
+  }
+  .image-container1 a img, .image-container a img {
+    opacity: 1;
   }
 }
 /*   MEDIA QUERIES TABLET   */
@@ -317,6 +337,9 @@ li:hover {
   .jumbotron-fluid h1 {
     font-size: 4.75rem;
     max-width: 100%;
+  }
+  .image-container1 a img, .image-container a img {
+    opacity: 1;
   }
 
 }
